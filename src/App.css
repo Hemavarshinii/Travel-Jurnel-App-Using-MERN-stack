@@ -1,0 +1,75 @@
+.journal-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.journal-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.journal-header h1 {
+  font-size: 2rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.journal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.form-input {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.form-input:focus {
+  border-color: #5d5dff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(93, 93, 255, 0.5);
+}
+
+textarea.form-input {
+  resize: vertical;
+}
+
+.journal-button {
+  background-color: #5d5dff;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.journal-button:hover {
+  background-color: #4a4aed;
+}
+
+@media (max-width: 768px) {
+  .journal-container {
+    padding: 1.5rem;
+  }
+}

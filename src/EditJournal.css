@@ -1,0 +1,147 @@
+/* Container styles */
+.travel-list-container {
+  background-color: #f5f5f5; /* Light background for better readability */
+  background-image: url("C:\Users\User\OneDrive\Documents\edit.jpg"); /* Replace with your image URL */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  max-width: 800px; /* Set a max width for the container */
+  margin: 50px auto; /* Center the container horizontally */
+  padding: 20px; /* Add some padding */
+  background-color: #ffffff; /* White background for a clean look */
+  border-radius: 10px; /* More pronounced rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Header styles */
+.journal-header-travel {
+  text-align: center; /* Center header text */
+  margin-bottom: 20px; /* Space below the header */
+}
+
+.journal-header-travel h1 {
+  font-size: 2.5em; /* Larger font size for the title */
+  color: #222; /* Darker color for better readability */
+  text-transform: uppercase; /* Uppercase for emphasis */
+}
+
+/* Form styles */
+.edit-form {
+  display: flex;
+  flex-direction: column; /* Arrange inputs in a column */
+  gap: 15px; /* Space between inputs */
+}
+
+.edit-form input,
+.edit-form textarea {
+  padding: 12px; /* Padding inside inputs */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 6px; /* Rounded corners */
+  font-size: 1em; /* Font size */
+  width: 100%; /* Full width */
+  transition: border-color 0.3s; /* Transition for border color */
+}
+
+.edit-form input:focus,
+.edit-form textarea:focus {
+  border-color: #ff7700; /* Change border color on focus */
+}
+
+/* Button styles */
+.edit-form button {
+  padding: 12px; /* Padding for buttons */
+  border: none; /* Remove default border */
+  border-radius: 6px; /* Rounded corners */
+  font-size: 1em; /* Font size */
+  cursor: pointer; /* Pointer cursor for buttons */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition for background color */
+  flex: 1; /* Equal size for both buttons */
+}
+
+.edit-form button[type="submit"] {
+  background-color: #ff7700; /* Orange background for the update button */
+  color: white; /* White text color */
+}
+
+.edit-form button[type="button"] {
+  background-color: #f0f0f0; /* Light gray background for the cancel button */
+  color: #333; /* Dark text color */
+}
+
+.edit-form button:hover {
+  transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.edit-form button[type="button"]:hover {
+  background-color: #e0e0e0; /* Darken cancel button on hover */
+}
+
+/* Journal list styles */
+.journal-list {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0; /* Remove padding */
+}
+
+.journal-entry-travel {
+  background-color: #fdfdfd; /* Slightly off-white background for entries */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding around each entry */
+  margin-bottom: 20px; /* Space between entries */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Title and Description styles */
+.journal-entry-travel h2 {
+  margin: 0 0 10px 0; /* Margin for the title */
+  font-size: 1.6em; /* Title font size */
+  color: #ff9100; /* Color for the title */
+}
+
+/* Entry paragraph styles */
+.journal-entry-travel p {
+  margin: 8px 0; /* Margin for paragraphs */
+  color: #555; /* Dark gray text for description */
+}
+
+/* Image styles */
+.journal-entry-travel img {
+  display: block; /* Ensure the image behaves like a block element */
+  margin: 10px auto; /* Center the image and add margin */
+  border-radius: 5px; /* Rounded corners for images */
+  max-width: 100%; /* Ensure the image is responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Action buttons styles */
+.action-buttons {
+  margin-top: 15px; /* Space above action buttons */
+  display: flex; /* Flexbox for alignment */
+  gap: 15px; /* Space between buttons */
+}
+
+/* Update and Delete button styles */
+.update-button,
+.delete-button {
+  padding: 12px; /* Padding for buttons */
+  border: none; /* Remove default border */
+  border-radius: 6px; /* Rounded corners */
+  font-size: 1em; /* Font size */
+  cursor: pointer; /* Pointer cursor for buttons */
+  flex: 1; /* Equal size for both buttons */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition for background color */
+}
+
+.update-button {
+  background-color: #ff4400; /* Bright orange background for edit button */
+  color: white; /* White text color */
+}
+
+.delete-button {
+  background-color: #ff3232; /* Red background for delete button */
+  color: white; /* White text color */
+}
+
+.update-button:hover,
+.delete-button:hover {
+  transform: translateY(-2px); /* Lift effect on hover */
+}

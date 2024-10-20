@@ -1,0 +1,133 @@
+/* Home.css */
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif; /* Use a modern font */
+  background-color: #f7f9fc; /* Light background */
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Start content from the top */
+  min-height: 100vh;
+  padding: 20px;
+  background: url("C:\Users\User\OneDrive\Documents\login.jpg"); /* Replace with your image URL */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  color: #333;
+}
+
+.header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Add depth to the header text */
+  margin: 20px 0; /* Reduce the top margin */
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.form-container:hover {
+  transform: scale(1.05); /* Add hover animation */
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ff6f61; /* Accent color */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  font-size: 1rem;
+  outline: none;
+  background-color: #f9f9f9;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+input:focus {
+  border-color: #ff6f61;
+  box-shadow: 0 0 8px rgba(255, 111, 97, 0.3); /* Subtle focus effect */
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff6f61;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s;
+}
+
+button:hover {
+  background-color: #e85d50;
+  transform: translateY(-3px); /* Lift effect */
+}
+
+button:active {
+  transform: translateY(0); /* No lift on click */
+}
+
+.error {
+  color: #ff3b3b;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.toggle-link {
+  display: inline-block;
+  font-size: 1rem;
+  color: #ff6f61;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.toggle-link:hover {
+  opacity: 0.7; /* Fade effect on hover */
+}
+
+.toggle-link:active {
+  opacity: 0.5;
+}
+
+p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1rem;
+  color: #555;
+}

@@ -1,0 +1,129 @@
+/* TravelJournal.css */
+.travel-content {
+  background-color: #f5f5f5; /* Light background for better readability */
+  background-image: url("C:/Users/User/OneDrive/Documents/travel_app.jpg"); /* Correct path for the image */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  text-align: center;
+  padding: 2rem;
+}
+
+h2 {
+  color: black;
+}
+
+.travel-options {
+  display: flex;
+  justify-content: center; /* Centering options */
+  gap: 1rem; /* Reduced gap between options */
+  margin-top: 1rem; /* Reduced margin for closer spacing */
+  padding: 1rem; /* Less padding to bring the items closer */
+}
+
+.travel-option {
+  position: relative;
+  text-align: center;
+}
+
+.travel-option-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.travel-option:hover .travel-option-image {
+  transform: scale(1.1);
+}
+
+.travel-button {
+  margin-top: 0.8rem; /* Slightly reduce the margin */
+  padding: 0.5rem 1.2rem;
+  border-radius: 20px;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.travel-button:hover {
+  background-color: #ff4f41; /* Slightly darker hover color */
+  transform: scale(1.05);
+}
+
+/* Centering the Explorer's Journal heading */
+.travel-header {
+  text-align: center;
+  margin-bottom: 1rem; /* Reduced margin */
+}
+
+.travel-header h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* TravelCarousel.css */
+.travel-carousel {
+  margin: 1.5rem 0; /* Reduced margin for less space above/below */
+  text-align: center;
+}
+
+.carousel-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem; /* Reduced gap between carousel items */
+  padding: 1rem 0;
+}
+
+.carousel-item {
+  min-width: 250px; /* Reduced width to allow for more compact items */
+  text-align: center;
+  background-color: #fff; /* Add background to make the content stand out */
+  border-radius: 10px;
+  padding: 0.8rem; /* Reduced padding inside each item */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add slight shadow for effect */
+  transition: transform 0.3s ease;
+}
+
+.carousel-item:hover {
+  transform: scale(1.05); /* Slightly increase scale on hover for the entire block */
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.carousel-item h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 0.5rem; /* Reduced margin */
+}
+
+.carousel-item p {
+  margin-top: 0.3rem; /* Reduced space between content and description */
+  font-size: 1rem;
+  color: #666;
+}
+
+.book-now {
+  padding: 0.7rem 1.2rem; /* Slightly reduced padding */
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  margin-top: 1.5rem; /* Reduced margin to space it from the carousel */
+}
+
+.book-now:hover {
+  background-color: #ff4757;
+}

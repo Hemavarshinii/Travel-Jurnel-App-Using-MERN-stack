@@ -1,0 +1,86 @@
+/* Container styles */
+.journal-container {
+  background-color: #f5f5f5; /* Light background for better readability */
+  background-image: url("C:\Users\User\OneDrive\Documents\write.jpg"); /* Replace with your image URL */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 600px; /* Set a max width for the form */
+  margin: 40px auto; /* Center the form horizontally and add some top margin */
+  padding: 20px; /* Add some padding */
+}
+
+/* Header styles */
+.journal-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.journal-header h1 {
+  color: #333; /* Dark text for contrast */
+}
+
+/* Form styles */
+.journal-form {
+  display: flex;
+  flex-direction: column; /* Stack form elements vertically */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Space between form groups */
+}
+
+label {
+  font-weight: bold; /* Bold labels for better visibility */
+  margin-bottom: 5px; /* Space between label and input */
+  display: block; /* Make label a block element */
+}
+
+/* Input and textarea styles */
+.form-input {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding for input fields */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Rounded corners for inputs */
+  font-size: 16px; /* Increase font size */
+}
+
+.form-input:focus {
+  border-color: #ff4400; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+/* Button styles */
+.journal-button {
+  padding: 10px 15px; /* Padding for button */
+  background-color: #ff4400; /* Primary button color */
+  color: white; /* Button text color */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer on hover */
+  font-size: 16px; /* Increase font size */
+  transition: background-color 0.3s, transform 0.2s; /* Add transition for hover effects */
+}
+
+.journal-button:hover {
+  background-color: #b33f00; /* Darker shade on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .journal-container {
+    margin: 20px; /* Reduce margin on small screens */
+    padding: 15px; /* Reduce padding on small screens */
+  }
+
+  .journal-header h1 {
+    font-size: 24px; /* Smaller font size for header */
+  }
+
+  .journal-button {
+    width: 100%; /* Full width button on small screens */
+  }
+}
